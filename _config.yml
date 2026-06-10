@@ -1,34 +1,34 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : HypeCheck
 
 # App Info
-ios_app_id                                : 6744533266                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id                                : 6744533266
+ios_app_country                           : us
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Moody
-app_price                                 : Free
-app_description                           : Track your daily mood, understand your emotional patterns, and improve your mental well-being with personalized insights.
+app_icon                                  : assets/appicon.png
+app_name                                  : HypeCheck
+app_price                                 : Subscription
+app_description                           : Stop paying for the hype. Paste any product link and get an honest Buy, Wait, or Skip verdict before you waste money on a viral dud.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner                   : true
 
 
 
 # Information About Yourself
-your_name                                 : Khamidjon                                
-your_link                                 : https://www.linkedin.com/in/khamidjonegamov/                     
-your_city                                 :                                 
+your_name                                 : Khamidjon
+your_link                                 : https://www.linkedin.com/in/khamidjonegamov/
+your_city                                 :
 email_address                             : egamovhamid@gmail.com
-linkedin_username                         : khamidjonegamov                                          
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : 
-twitter_username                          : 
+linkedin_username                         : khamidjonegamov
+linkedin_company                          :
+facebook_username                         :
+instagram_username                        :
+twitter_username                          :
 github_username                           : khamidjon
 youtube_username                          :
 mastodon_link                             :
@@ -38,78 +38,61 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Daily Mood Tracking
-    description                           : Easily log your mood throughout the day with our intuitive interface.
-    fontawesome_icon_name                 : smile
-    
-  - title                                 : Mood Analytics
-    description                           : Get insights into your emotional patterns with beautiful charts and statistics.
-    fontawesome_icon_name                 : chart-line
+  - title                                 : Check Any Product
+    description                           : Paste a TikTok, Instagram, or Amazon link — or just type a product name — and get the real story.
+    fontawesome_icon_name                 : link
 
-  - title                                 : Personalized Insights
-    description                           : Receive tailored recommendations based on your mood patterns and triggers.
-    fontawesome_icon_name                 : lightbulb
+  - title                                 : Buy, Wait, or Skip
+    description                           : One clear verdict in seconds. No research rabbit holes, no second-guessing.
+    fontawesome_icon_name                 : check-circle
 
-  - title                                 : Mood Journal
-    description                           : Add notes and track what influences your mood with our built-in journal feature.
-    fontawesome_icon_name                 : book
+  - title                                 : Proof Score & Hype Risk
+    description                           : See how much real evidence backs the product versus manufactured buzz.
+    fontawesome_icon_name                 : search
 
-  - title                                 : Privacy Focused
-    description                           : Your mood data stays private and secure on your device.
-    fontawesome_icon_name                 : shield-alt
+  - title                                 : Fair-Price Check
+    description                           : Find out whether the asking price is fair, plus discover cheaper alternatives.
+    fontawesome_icon_name                 : tag
 
-  - title                                 : Beautiful Design
-    description                           : Clean, modern interface that makes mood tracking a pleasure.
-    fontawesome_icon_name                 : paint-brush
+  - title                                 : Fake-Hype Detection
+    description                           : Flags paid-creator patterns, suspect reviews, and inflated buzz so you know what's real.
+    fontawesome_icon_name                 : exclamation-triangle
 
-  - title                                 : Reminders
-    description                           : Never forget to track your mood with customizable reminders.
-    fontawesome_icon_name                 : bell
-
-  - title                                 : Export Data
-    description                           : Export your mood data for personal analysis or sharing with healthcare providers.
-    fontawesome_icon_name                 : download
+  - title                                 : Scan History
+    description                           : All your past checks saved on-device. Revisit any verdict anytime.
+    fontawesome_icon_name                 : history
 
 
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
+topbar_color                              : "#0E1117"
+topbar_transparency                       : 0.9
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image                               : assets/headerimage.png
+cover_overlay_color                       : "#0E1117"
+cover_overlay_transparency                : 0.85
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : black
 
-body_background_color                     : "#ffffff"
+body_background_color                     : "#F7F6F1"
 
-link_color                                : "#1d63ea"
+link_color                                : "#16A57A"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
 app_description_color                     : "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color                       : "#0E1117"
+feature_text_color                        : "#555555"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#16A57A"
+feature_icons_background_color            : "#E4E2D9"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#0E1117"
+social_icons_background_color             : "#E4E2D9"
 
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
+footer_text_color                         : "#555555"
 
 
 
